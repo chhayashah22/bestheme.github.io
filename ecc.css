@@ -1,0 +1,624 @@
+#headings{
+    width:100%;
+    background-color:lightblue;
+    height:20px;
+    font-display: center;
+    
+}
+#menu{
+    float: right;
+}
+.text{
+    margin-left:10px;
+    padding-top:0px;
+}
+#main{
+    background-color:white;
+}
+.nav{
+    background-color:grey ;
+    height:36px;
+    font-family: roman;
+    font-size:20px;
+    font-display: center;
+
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:2px;
+    
+    
+}
+li{
+    float:left;
+    border-right: 1px solid black;
+    color: aliceblue;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right:8px;
+    
+}
+
+    
+    
+
+.row1{
+    width:100%;
+    height: 500px;
+    margin-top: 10px;
+}
+#shopping{
+    height:500px;
+}
+.row1-col1{
+    width:40%;
+    height: 100%;
+    float: right;
+    
+    
+    
+}
+#photo{
+    width:100%;
+    height:50%;
+    
+
+}
+#ph{
+    width:100%;
+    height:50%;
+    margin-top:2px;
+}
+#search{
+    background-color: lightcyan;
+    font-size:18px;
+    text-align: start;
+    font-family:roman;
+    font-size:medium;
+    padding-left:4px;
+    padding-top:6px;
+    height:30px;
+    width:57%;
+    
+}
+#small{
+    float:right;
+    margin-right: 8px;
+    background-color :bisque;
+    outline:1px solid WHITE;
+    height:20px;
+    width:20%;
+    padding-left:2px;
+    margin-top:3px;
+}
+.jean{
+    width:250px;
+    height:250px;
+    
+    margin-top:4px;
+    float:left;
+    box-sizing: border-box;
+    margin:auto 5px;
+    margin-top:5px;
+}
+#pant{
+    width:250px;
+    height:250px;
+    
+    
+    
+}
+#shoes{
+    width:250px;
+    height:250px;
+    margin-right: 4px;
+    
+
+    
+}
+    #jean{
+        width:250px;
+        height:250px;
+        margin-right: 4px;
+    
+    }  
+        
+  *{
+    box-sizing: border-box;
+  }
+  
+.container{
+    width:60%;
+    height:600px;
+    outline: 1px solid black;
+    float: inline-end;
+    margin-left:600px;
+
+
+
+}
+#logo{
+    height:25px;
+    border-radius: 80px;
+    outline: solid red 1px;
+
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.text1{
+    margin-top:5px;
+    padding:3px;
+    text-indent: 40px;
+    
+}
+.lg{
+    width:100%;
+    height:35px;
+    
+    padding-left: 3px;
+    padding-top: 3px;
+    margin-left: 10px;
+}
+.theme{
+    text-indent:30px;
+    padding-left: 5px;
+    font-weight: bolder;
+    color:red;
+    font-size: 20px;
+
+
+}
+.parent{
+    width:100%;
+    height:500px;
+    
+    display:flex;
+}
+.child1{
+    width:60%;
+    height:500px;
+    
+}
+.child2{
+    width:40%;
+    height:500px;
+    
+    float:right;
+    
+}
+#bn{
+    color:black;
+    text-align: center;
+    background-color: crimson;
+    margin-left:20px;
+
+
+
+}
+.filter{
+    padding-top:100px;
+    padding-left: 20px;
+    
+}
+.line{
+    color:pink;
+}
+#meter{
+    margin-left:20px;
+    
+}
+.text{
+    padding-left:20px;
+    font-size: medium;
+    font-weight: bold;
+    content:justify;
+    
+}
+.bnn{
+    margin-left:80px;
+    background-color:red;
+    color:black;
+}
+@media(width<=500px){
+    #headings{
+    
+    background-color:yellowgreen;
+    
+}
+#menu{
+    float: right;
+}
+.text{
+    margin-left:10px;
+    padding-top:0px;
+}
+#main{
+    background-color:white;
+}
+.nav{
+    background-color:grey ;
+    height:36px;
+    font-family: roman;
+    font-size:20px;
+    font-display: center;
+
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:2px;
+    
+    
+}
+li{
+    float:left;
+    border-right: 1px solid black;
+    color: aliceblue;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right:8px;
+    
+}
+
+    
+    
+
+.row1{
+    width:100%;
+    height: 500px;
+    margin-top: 10px;
+}
+#shopping{
+    height:500px;
+}
+.row1-col1{
+    width:40%;
+    height: 100%;
+    float: right;
+    
+    
+    
+}
+#photo{
+    width:100%;
+    height:50%;
+    
+
+}
+#ph{
+    width:100%;
+    height:50%;
+    margin-top:2px;
+}
+#search{
+    background-color: lightcyan;
+    font-size:18px;
+    text-align: start;
+    font-family:roman;
+    font-size:medium;
+    padding-left:4px;
+    padding-top:6px;
+    height:30px;
+    width:57%;
+    
+}
+#small{
+    float:right;
+    margin-right: 8px;
+    background-color :bisque;
+    outline:1px solid WHITE;
+    height:20px;
+    width:20%;
+    padding-left:2px;
+    margin-top:3px;
+}
+.jean{
+    width:250px;
+    height:250px;
+    
+    margin-top:4px;
+    float:left;
+    box-sizing: border-box;
+    margin:auto 5px;
+    margin-top:5px;
+}
+#pant{
+    width:250px;
+    height:250px;
+    
+    
+    
+}
+#shoes{
+    width:250px;
+    height:250px;
+    margin-right: 4px;
+    
+
+    
+}
+    #jean{
+        width:250px;
+        height:250px;
+        margin-right: 4px;
+    
+    }  
+        
+  *{
+    box-sizing: border-box;
+  }
+  
+.container{
+    width:60%;
+    height:600px;
+    outline: 1px solid black;
+    float: inline-end;
+    margin-left:600px;
+
+
+
+}
+#logo{
+    height:25px;
+    border-radius: 80px;
+    outline: solid red 1px;
+
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.text1{
+    margin-top:5px;
+    padding:3px;
+    text-indent: 40px;
+    
+}
+.lg{
+    width:100%;
+    height:35px;
+    
+    padding-left: 3px;
+    padding-top: 3px;
+    margin-left: 10px;
+}
+.theme{
+    text-indent:30px;
+    padding-left: 5px;
+    font-weight: bolder;
+    color:red;
+    font-size: 20px;
+
+
+}
+.parent{
+    width:100%;
+    height:500px;
+    
+    display:flex;
+}
+.child1{
+    width:60%;
+    height:500px;
+    
+}
+.child2{
+    width:40%;
+    height:500px;
+    
+    float:right;
+    
+}
+#bn{
+    color:black;
+    text-align: center;
+    background-color: crimson;
+    margin-left:20px;
+
+
+
+}
+.filter{
+    padding-top:100px;
+    padding-left: 20px;
+    
+}
+
+#meter{
+    margin-left:20px;
+    
+}
+.text{
+    padding-left:20px;
+    font-size: medium;
+    font-weight: bold;
+    content:justify;
+    
+}
+.bnn{
+    margin-left:80px;
+    background-color:red;
+    color:black;
+}  
+        
+        
+   
+@media(max-width:700px){
+    #headings{
+    width:100%;
+    background-color:red;
+    height:10px;
+    box-sizing: border-box;
+    font-size: 9px;
+    font-display: center;
+}
+.lg{
+    width:100%;
+    height:30px;
+    
+    padding-left: 1px;
+    padding-top: 1px;
+    margin-left: 5px;
+}
+.nav{
+    width:100%;
+    background-color:grey ;
+    height:15px;
+    font-family: roman;
+    font-size:9px;
+    font-display: center;
+
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:1px;
+    
+    
+}
+li{
+    float:left;
+    border-right: 1px solid black;
+    color: aliceblue;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right:4px;
+    
+}
+.row1{
+    width:100%;
+    height: 250px;
+    margin-top: 5px;
+}
+#shopping{
+    height:100%;
+    width:70%;
+}
+.row1-col1{
+    width:30%;
+    height: 80%;
+    float: right;
+    
+    
+    
+}
+#photo{
+    width:100%;
+    height:61.5%;
+    margin-left:2px;
+    
+
+}
+#ph{
+    width:100%;
+    height:61.5%;
+    margin-top:2px;
+    margin-left:2px;
+    
+}
+#search{
+    margin-top:2px;
+    background-color: lightcyan;
+    font-size:14px;
+    text-align: start;
+    font-family:roman;
+    font-size:9px;
+    padding-left:2px;
+    padding-top:3px;
+    height:20px;
+    width:60%;
+    
+}
+#small{
+    float:right;
+    margin-right: 4px;
+    background-color :bisque;
+    outline:1px solid WHITE;
+    height:10px;
+    width:30%;
+    padding-left:1px;
+    margin-top:1px;
+    font-size: 8px;
+}
+
+
+#jean{
+    width:200px;
+    height:200px;
+    
+
+}  
+.jean{
+    width:250px;
+    height:250px;
+    
+
+
+    
+}
+#pant{
+    width:200px;
+    height:200px;
+    
+    
+    
+}
+#shoes{
+    width:200px;
+    height:200px;
+    margin-right: 2px;
+    
+
+    
+}
+.parent{
+    width:100%;
+    height:100px;
+    
+    display:flex;
+}
+.child1{
+    width:60%;
+    height:100px;
+    
+}
+.child2{
+    width:40%;
+    height:100px;
+    
+    float:right;
+    
+}
+.bnn{
+    margin-left:60px;
+    background-color:red;
+    color:black;
+    font-size: small;
+    padding:2px;
+}
+.filter{
+    padding-top:100px;
+    padding-left: 10px;
+    
+}
+
+#meter{
+    margin-left:10px;
+    
+}
+.text{
+    padding-left:10px;
+    font-size: small;
+    font-weight: bold;
+    
+    
+}  
+        
